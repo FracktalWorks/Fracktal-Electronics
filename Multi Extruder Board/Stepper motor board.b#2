@@ -8967,6 +8967,13 @@ design rules under a new name.</description>
 <via x="85" y="53.5" extent="1-16" drill="0.35"/>
 <via x="76" y="44" extent="1-16" drill="0.35"/>
 <via x="76" y="41" extent="1-16" drill="0.35"/>
+<via x="132" y="8.5" extent="1-16" drill="0.35"/>
+<via x="129" y="1" extent="1-16" drill="0.35"/>
+<via x="35.5" y="70" extent="1-16" drill="0.35"/>
+<via x="39.5" y="68" extent="1-16" drill="0.35"/>
+<via x="49.5" y="69.5" extent="1-16" drill="0.35"/>
+<via x="104" y="69" extent="1-16" drill="0.35"/>
+<via x="108" y="68" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="+3.3V" class="1">
 <contactref element="U1" pad="1"/>
@@ -9219,7 +9226,6 @@ design rules under a new name.</description>
 <wire x1="101.3574" y1="43.3466" x2="101.352" y2="43.352" width="0.3048" layer="1"/>
 <wire x1="101.3574" y1="43.3466" x2="101.5" y2="43.3466" width="0.3048" layer="1"/>
 <wire x1="101.5" y1="43.3466" x2="101.99860625" y2="43.3466" width="0.3048" layer="1"/>
-<wire x1="101.99860625" y1="43.3466" x2="102.00190625" y2="43.3499" width="0.3048" layer="1"/>
 <wire x1="101" y1="43" x2="101.5" y2="42.5" width="0.508" layer="1"/>
 <wire x1="101.5" y1="42.5" x2="101.5" y2="39.5" width="0.508" layer="1"/>
 <wire x1="101.5" y1="39.5" x2="101.5" y2="39" width="0.508" layer="1"/>
@@ -11893,27 +11899,6 @@ design rules under a new name.</description>
 <wire x1="27" y1="28.5" x2="26.56" y2="28.94" width="0.2032" layer="1"/>
 <wire x1="26.56" y1="28.94" x2="26.56" y2="30.16" width="0.2032" layer="1"/>
 </signal>
-<signal name="N$51">
-<via x="132" y="8.5" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$52">
-<via x="129" y="1" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$5">
-<via x="35.5" y="70" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$9">
-<via x="39.5" y="68" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$10">
-<via x="49.5" y="69.5" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$21">
-<via x="104" y="69" extent="1-16" drill="0.35"/>
-</signal>
-<signal name="N$22">
-<via x="108" y="68" extent="1-16" drill="0.35"/>
-</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
@@ -12035,6 +12020,7 @@ design rules under a new name.</description>
 <approved hash="19,1,9b3ae8db7d4a9a51"/>
 <approved hash="19,1,d02ed36118edfb5e"/>
 <approved hash="19,1,8b8cf2521c81e1bd"/>
+<approved hash="19,1,e76d7d49de123c55"/>
 </errors>
 </board>
 </drawing>
